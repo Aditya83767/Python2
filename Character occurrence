@@ -1,0 +1,13 @@
+word = input("Please enter your own word:")
+
+x = input("Please enter your own Character:")
+i = 0
+count = 0
+
+while(i < len(word):
+
+  if(word[i] == x):
+    count = count + 1
+  i = i + 1
+
+print("The total Number of times", x, "has Occured = ", count)
