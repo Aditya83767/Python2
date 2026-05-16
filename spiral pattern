@@ -1,0 +1,13 @@
+import turtle
+turtle.Screen().bgcolor("orange")
+turtle.speed(10)
+turtle.title("Turtle")
+spiral = turtle.Turtle()
+size= 0
+while True:
+    for i in range(4):
+        spiral.fd(size + 1)
+        spiral.left(90)
+        size = size - 5
+
+    size = size + 1
