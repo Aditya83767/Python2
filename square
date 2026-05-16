@@ -1,0 +1,15 @@
+import turtle
+
+turtle.Screen().bgcolor("orange")
+turtle.Screen().setup(width=500, height=300)
+turtle.title("Draw a square")
+turtle.speed(0)
+
+square = turtle.Turtle()
+
+# Draw a square
+for i in range(4):
+    square.forward(100)
+    square.right(90)
+
+turtle.done()
