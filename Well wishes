@@ -1,0 +1,5 @@
+def well_wishes():
+    print("Best of luck for your exams.")
+    print("May GOD bless you")
+
+well_wishes()
